@@ -11,6 +11,7 @@ public class HomeworkController {
 	@RequestMapping("/")
 	public String index() {
 		log.info("실행");
+		log.info("추가");
 		return "index";
 	}
 }
